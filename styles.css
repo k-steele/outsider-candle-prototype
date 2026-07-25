@@ -10,4 +10,7 @@ main { max-width:1320px; margin:auto; }.hero { display:grid; grid-template-colum
 .detail,
 .story { margin-top:32px; margin-bottom:32px; }
 .story .story-art img { width:min(52%,260px); max-width:none; }
+.product-visual .label { gap:6px; padding:14px; overflow:hidden; }
+.product-visual .label b { font-size:clamp(17px,1.8vw,24px); line-height:.9; overflow-wrap:break-word; }
+.product-visual .label small { font-size:7px; line-height:1.25; }
 @media (max-width:720px) { .site-header { height:auto; padding:15px 18px; }.wordmark { width:150px; } nav { display:none; }.hero,.detail,.story { grid-template-columns:1fr; }.hero-copy,.detail-copy { padding:65px 28px; }.hero-art { min-height:430px; }.section,.shop-header,.story-header { padding-left:18px; padding-right:18px; }.products,.shop-grid { grid-template-columns:repeat(2,1fr); gap:12px; padding-left:18px; padding-right:18px; }.product-visual { height:230px; }.shop-grid .product-visual { height:220px; }.product h3 { font-size:22px; }.proof { grid-template-columns:1fr; }.section h2 { font-size:40px; }.detail-copy h1 { font-size:58px; }.story-copy { padding:60px 28px; }.story .story-art { min-height:340px; padding:40px; } footer { padding:36px 18px 100px; display:block; line-height:2; }.prototype-bar { bottom:10px; }.prototype-bar button { padding:9px 10px; font-size:9px; } }
